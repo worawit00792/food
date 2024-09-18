@@ -1,0 +1,31 @@
+{% extends "_base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+{% load static %}
+
+<div class="max-w-sm mx-auto py-9 overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-blue-400 border-4 border-gray-300"> <!-- ใส่กรอบรอบองค์ประกอบ -->
+    <div class="relative">
+      <img class="w-full h-60 object-cover border-2 border-blue-400" src="{% static 'roob/NUT.png' %}"> <!-- ใส่กรอบรอบรูปภาพ -->
+    </div>
+    <div class="px-6 py-4">
+      <div class="text-xl font-semibold text-gray-800">นายวรวิทย์ ศรีแก้ว</div>
+      <p class="text-gray-600">ผมเป็นนักศึกษา ICT เทคโนโลยีสารสนเทศ มหาวิทยาลัยอุบลราชธานี ผมอยากเข้าดิจิทัลครับ</p>
+    </div>
+    <div class="px-1 py-1">
+      <span class="inline-block px-5 py-1 font-semibold text-teal-900 bg-teal-200 rounded-full border-2 border-teal-500">Unity</span> <!-- ใส่กรอบให้กับป้าย -->
+      <span class="inline-block px-5 py-1 font-semibold text-indigo-900 bg-indigo-200 rounded-full border-2 border-indigo-500">PHP</span> <!-- ใส่กรอบให้กับป้าย -->
+      <span class="inline-block px-5 py-1 font-semibold text-purple-900 bg-purple-200 rounded-full border-2 border-purple-500">React</span> <!-- ใส่กรอบให้กับป้าย -->
+      <span class="inline-block px-5 py-1 font-semibold text-purple-900 bg-purple-200 rounded-full border-2 border-purple-500">MySQL</span> <!-- ใส่กรอบให้กับป้าย -->
+      
+      <!-- ปุ่มที่มีกรอบ -->
+      
+        </a>
+      </div>
+    </div>
+</div>
+
+
+{% endblock content %}
